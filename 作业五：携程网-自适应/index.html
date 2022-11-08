@@ -1,10 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>携程网</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/setrem.js"></script>
   </head>
-  <body></body>
+
+  <body>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./images/1.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/2.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/3.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/4.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/5.jpg" alt="" />
+        </div>
+      </div>
+      <!-- 如果需要分页器 -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- 导航等组件可以放在Swiper容器之外 -->
+
+    <!-- 酒店 -->
+    <ul>
+      <li>
+        酒店
+        <span></span>
+      </li>
+      <li>海外酒店</li>
+      <li>团购</li>
+      <li>特价酒店</li>
+      <li>民宿客栈</li>
+    </ul>
+    <!-- 机票 -->
+    <ul>
+      <li>
+        机票
+        <span></span>
+      </li>
+      <li>火车票·抢票</li>
+      <li>特价机票</li>
+      <li>汽车票船票</li>
+      <li>专车租车</li>
+    </ul>
+    <!-- 旅游 -->
+    <ul>
+      <li>
+        旅游
+        <span></span>
+      </li>
+      <li>目的地攻略</li>
+      <li>周边游</li>
+      <li>邮轮旅行</li>
+      <li>定制旅行</li>
+    </ul>
+    <!-- 酒店 -->
+    <ul>
+      <li>
+        景点·玩乐
+        <span></span>
+      </li>
+      <li>礼品卡</li>
+      <li>美食林</li>
+      <li>WiFi·电话卡</li>
+      <li>购物·信用卡</li>
+      <li>保险·签证</li>
+    </ul>
+    <!-- banner部分 -->
+    <div class="banner">
+      <a href="#">
+        <img src="./images/pic_sale.png" alt="" />
+      </a>
+    </div>
+    <!-- 底部样式 -->
+    <div class="footer">
+      <div class="tel">
+        <a href="#" class="reserve">电话预订</a>
+        <a href="#" class="download">下载客户端</a>
+        <a href="#" class="Ctrip">我的携程</a>
+      </div>
+      <div class="feedback">
+        <a href="#" class="english">ENGLISH</a>
+        <a href="#" class="computer">电脑端</a>
+        <a href="#" class="advice">意见反馈</a>
+      </div>
+      <p>© 2018携程旅行 | 沪ICP备08023580号</p>
+    </div>
+  </body>
 </html>
+<script>
+  var mySwiper = new Swiper(".swiper", {
+    autoplay: true,
+
+    direction: "horizontal", // 垂直切换选项
+    loop: true, // 循环模式选项
+
+    // 如果需要分页器
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>
