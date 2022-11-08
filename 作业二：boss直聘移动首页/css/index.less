@@ -2,3 +2,53 @@
     margin: 0;
     padding: 0;
 }
+@bgColor:#1dd0ca;
+@fsColor:#7e8793;
+
+body,html{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+}
+.box{
+    width: 64rem;
+    height: 39rem;
+    background: url(../images/home-bg.png) no-repeat center center; 
+   background-size: cover;
+    a{
+        display: block;
+        height: 27rem;
+        background: url(../images/home-search-text.png) no-repeat center 11.5rem;
+        background-size: 50rem auto;
+    }
+    .search{
+        width: 90%;
+        height: 7rem;
+        margin: 1.5rem auto;
+        border-radius: 10rem;
+        background-color: white;
+      input{
+        display: block;
+        width: 80%;
+        height: 5rem;
+        margin: 0 auto;
+        float: left;
+        margin-left: 3rem;
+        margin-top: 1rem;
+        font-size: 2.5rem;
+        border: none;
+        outline: none;
+      }
+      a{
+        display: block;
+        float: left;
+        width: 11%;
+        height: 100%;
+        text-align: center;
+        line-height: 7rem;
+        font-size: 3rem;
+        color: @bgColor;
+      }
+    }
+}
