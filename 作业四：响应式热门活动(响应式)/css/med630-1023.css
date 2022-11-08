@@ -1,23 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-a {
-  text-decoration: none;
-}
-li {
-  list-style: none;
-  margin: 0 20px;
-  text-align: center;
-}
 .box {
-  width: 1024px;
+  width: 640px;
   padding: 30px;
   margin: 10px auto 0;
-  background-color: #ff0000;
+  background-color: pink;
+  border: 1px solid red;
 }
 .box h2 {
-  font-size: 28px;
+  font-size: 20px;
 }
 .box h2 span {
   float: right;
@@ -27,7 +16,7 @@ li {
 .box .list {
   display: flex;
   margin-top: 30px;
-  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .box .list li img {
   width: 90%;

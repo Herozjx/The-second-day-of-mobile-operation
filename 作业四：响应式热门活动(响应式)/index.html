@@ -1,10 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>热门活动</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <!-- 媒体查询 -->
+    <!-- 大于1024px  -->
+    <link
+      rel="stylesheet"
+      href="./css/med1024.css"
+      media="all and (min-width:1024px)"
+    />
+    <!-- 640px~1024px  -->
+    <link
+      rel="stylesheet"
+      href="./css/med630-1023.css"
+      media="all and (min-width: 640px) and (max-width: 1023px)"
+    />
+    <!--640px以下 -->
+    <link
+      rel="stylesheet"
+      href="./css/med640.css"
+      media="all and (max-width: 640px)"
+    />
   </head>
-  <body></body>
+
+  <body>
+    <div class="box">
+      <h2>
+        热门活动
+        <span>更多</span>
+      </h2>
+
+      <ul class="list">
+        <li>
+          <img src="./image/img1.png" alt="" />
+          <p>推荐活动 | 原创音乐现金榜T榜</p>
+        </li>
+        <li>
+          <img src="./image/img2.png" alt="" />
+          <p>推荐活动 | 原创音乐现金榜T榜</p>
+        </li>
+        <li>
+          <img src="./image/img3.png" alt="" />
+          <p>推荐活动 | 原创音乐现金榜T榜</p>
+        </li>
+        <li>
+          <img src="./image/img4.png" alt="" />
+          <p>推荐活动 | 原创音乐现金榜T榜</p>
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
