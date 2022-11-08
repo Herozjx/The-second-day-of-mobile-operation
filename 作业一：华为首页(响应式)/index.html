@@ -1,10 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>华为首页(移动端)</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <!-- <script src="./js/setrem.js"></script> -->
   </head>
-  <body></body>
+
+  <body>
+    <!-- 头部 -->
+    <header id="coverone">
+      <ul class="clearfix">
+        <li class="sy"><a href="#">首页</a></li>
+        <li><a href="#">个人与家庭用户</a></li>
+        <li><a href="#">企业用户</a></li>
+        <li><a href="#">运营商用户</a></li>
+      </ul>
+      <!-- 导航条logo部分 -->
+      <nav>
+        <div class="logo">
+          <img src="./img/logo.png" alt="" />
+        </div>
+        <!-- 右边登录注册部分 -->
+        <div class="login">
+          <img src="./img/top-lan.jpg" alt="" />
+        </div>
+      </nav>
+    </header>
+    <!-- 第二个头部屏幕缩放到960px时显示 -->
+    <div class="nav" id="covertwo">
+      <!-- logo -->
+      <div class="logo">
+        <img src="./img/logo.png" alt="" />
+      </div>
+      <a href="#" class="menu">
+        <img src="./img/menu.png" alt="" />
+      </a>
+      <a href="#" class="search">
+        <img src="./img/search.png" alt="" />
+      </a>
+    </div>
+    <!-- 主体部分 -->
+    <main class="clearfix" id="content"></main>
+  </body>
 </html>
