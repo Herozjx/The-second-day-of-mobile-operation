@@ -11,6 +11,7 @@ body,html{
 a{
     text-decoration: none;
 }
+
 .box{
     width: 64rem;
     height: 39rem;
@@ -50,5 +51,84 @@ a{
         font-size: 3rem;
         color: @bgColor;
       }
+    }
+}
+/* 主体部分 */
+.main{
+    position: relative;
+    dl{
+        padding-top: 4rem;
+        overflow: hidden;
+        border-bottom: 1px solid #f5f8f9;
+        dt{
+            margin-left: 3rem ;
+            margin-bottom: 3rem ;
+            img{
+                width: 10rem;
+                height: 10rem;
+                float: left;
+            }
+            h1{
+                width: 43rem;
+                height: 10rem;
+                float: left;
+                margin-bottom: 2rem;
+                font-size: 3rem;
+                color: #404855;
+                line-height: 10rem;
+                margin-left: 3.5rem;
+            }
+        }
+        dd{
+            margin: 1rem 3rem;
+            a{
+               padding: 1rem 3rem 1rem 3rem;
+               display: inline-block;
+               font-size: 2.5rem;
+               color: @fsColor;
+               line-height: 5rem;
+               border-radius: 4rem;
+               box-sizing: border-box;
+               margin:0 1rem 2rem 0;
+               background-color: #f5f8f9;
+            }
+        }
+    }
+    .login{
+        width: 100%;
+        height: 11rem;
+        background-color: #1dd0ca;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        .text{
+            margin-left: 3.5rem;
+            margin-right: 20rem;
+            color: #ffffff;
+            font-size: 2.8rem;
+            // background-color: aquamarine;
+            margin-top: 1.5rem;
+            img{
+                width: 8rem;
+                height: 8rem;
+                margin-right: 2rem;
+                float: left;
+            }
+            
+        }
+        a{
+            width: 16rem;
+            height: 6rem;
+            background-color: #ffffff;
+            float: right;
+            text-align: center;
+            line-height: 6rem;
+            border-radius: 10rem;
+            margin-top: 2.5rem;
+            margin-right: 3rem;
+            font-size: 2.8rem;
+            color: #5dd5ca;
+        }
+        
     }
 }
