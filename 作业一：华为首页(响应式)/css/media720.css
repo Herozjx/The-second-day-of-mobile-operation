@@ -1,0 +1,8 @@
+/* 内容 */
+#contentone{
+    display: none;
+}
+#contentTwo{
+    margin-left: 2rem;
+    display: block;
+}

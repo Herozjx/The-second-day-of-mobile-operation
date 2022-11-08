@@ -1,0 +1,11 @@
+/* 媒体查询 */
+/* 头部 */
+   #coverone {
+        display: none;
+    }
+    #covertwo {
+        display: block;
+    }
+    
+
+
